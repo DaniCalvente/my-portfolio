@@ -21,15 +21,25 @@
         <div class="logo">
           <a href="#">daniCalvente</a>
         </div>
-        <nav id="nav" >
-          <ul>
-            <li><a href="#home" onclick="select()">INICIO</a></li>
-            <li><a href="#about" onclick="select()">SOBRE MI</a></li>
-            <li><a href="#curriculum" onclick="select()">CURRICULUM</a></li>
-            <li><a href="#projects" onclick="select()">PROYECTOS</a></li>
-            <li><a href="#contact" onclick="select()">CONTACTO</a></li>
+        <nav id="nav" class="nav">
+          <ul>    
+            <li><a href="#home" onclick="select()" data-section="nav" data-value="home">INICIO</a></li>
+            <li><a href="#about" onclick="select()" data-section="nav" data-value="about">SOBRE MI</a></li>
+            <li><a href="#curriculum" onclick="select()" data-section="nav" data-value="curriculum">CURRICULUM</a></li>
+            <li><a href="#projects" onclick="select()" data-section="nav" data-value="projects">PROYECTOS</a></li>
+            <li><a href="#contact" onclick="select()" data-section="nav" data-value="contact">CONTACTO</a></li>
           </ul>
         </nav>
+        <!-- Multilanguage Feature -->
+    <div id="flags" class="flags">
+      <div class="flags_item" data-language="es"> 
+        <img id="spanish" class="language" src="./images/spain.png" alt="spanish-flag" onclick="">
+      </div>
+      <div class="flags_item" data-language="en"> 
+      <img id="english" class="language" src="./images/united-kingdom.png" alt="uk-flag" onclick="">
+    </div>
+  </div>
+  <!-- End Multilanguage -->
         <div class="nav-responsive" onclick="showOrHideMenu()"><i class="fa-solid fa-bars"></i></div>
       </header>
     </div>
@@ -38,25 +48,15 @@
     <section id="home" class="home">
       <div class="banner">
         <div class="img-container">
-          <img src="images/myself.jpg" alt="pofile-picture" />
+          <img src="images/myself.png" alt="pofile-picture" />
         </div>
         <h1>DANIEL CALVENTE</h1>
-        <h2>Programador Web Full-Stack</h2>
+        <h2 data-section="home" data-value="rol">Programador Web Full-Stack</h2>
         <div class="media">
           <a href="https://www.linkedin.com/in/daniel-calvente-gomez/" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-linkedin-in"></i></a>
           <a href="https://github.com/DaniCalvente" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-github"></i></a>
           <a href="https://www.facebook.com/danielcg3" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-facebook-f"></i></a>
         </div>
-        <!-- Multilanguage Feature -->
-    <div class="multi-language">
-      
-      <img id="spanish" class="language" src="./images/spain.png" alt="spanish-flag" onclick="switchLanguageToSpanish()">
-      <img id="english" class="language" src="./images/united-kingdom.png" alt="uk-flag" onclick="switchLanguageToEnglish()">
-  </div>
-
-
-
-  <!-- End Multilanguage -->
       </div>
     </section>
 
