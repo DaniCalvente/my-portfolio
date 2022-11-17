@@ -1,0 +1,12 @@
+{
+  "nav": {
+    "home": "INICIO",
+    "about": "SOBRE MI",
+    "curriculum": "CURRICULUM",
+    "projects": "PROYECTOS",
+    "contact": "CONTACTO"
+  },
+  "home": {
+    "rol": "Programador Web Full-Stack"
+  }
+}
