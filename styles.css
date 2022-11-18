@@ -451,7 +451,7 @@ html {
   background-color: transparent;
   border: 2px solid #fff;
   width: fit-content;
-  display: block;
+  display: flex;
   margin: 20px auto;
   padding: 10px 22px;
   font-size: 16px;
@@ -478,6 +478,16 @@ html {
   position: relative;
   text-align: center;
   width: 100%;
+}
+.contact .row .column ul li {
+  display: flex;
+  padding: 5px 25px;
+}
+.contact .row .column ul li i {
+  display: block;
+}
+.contact .row .column ul li p {
+  padding-left: 10px;
 }
 .contact .column iframe {
   width: 100%;
