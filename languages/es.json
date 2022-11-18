@@ -55,5 +55,24 @@
     "third-job-company":"Jose Pizarro Restaurants",
     "third-job-location":"Londres - Reino Unido",
     "third-job-date":"05/2015 - 10/2016"
+  },
+  "projects":{
+    "title":"Proyectos",
+    "first-project-name":"Mission To Mars",
+    "first-project-description":"Juego web creado usando HTML, CSS y JavaScript",
+    "second-project-name":"LibraryWeb",
+    "second-project-description":"Aplicación Web Backend - MongoDB, ExpressJS, NodeJS",
+    "third-project-name":"Eat At Home",
+    "third-project-description":"Aplicación Web Full Stack - MERN"
+  },
+  "contact":{
+    "title":"Contacto",
+    "button":"Enviar Mensaje",
+    "location":"Granada, 18003 - España",
+    "phone":"Teléfono: 673 608 831",
+    "email":"Email: danicalvente@hotmail.com" 
+  },
+  "footer":{
+    "rights":"&#169 2022 - Portfolio creado por Dani Calvente"
   }
 }
