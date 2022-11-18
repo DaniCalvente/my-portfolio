@@ -8,5 +8,52 @@
   },
   "home": {
     "rol": "Full-Stack Web Developer"
+  },
+  "about": {
+    "about-me": "About Me",
+    "description": "<span>Hey, it's me, Dani Calvente! </span>I'm a full-stack web developer who relies on passion for learning, acute attention to detail and a effective communication to deliver exceptional results. My mission is to find a junior web dev role that maximizes my opportunities for growth and skill development through working with an outstanding team",
+    "personal-info": "Personal Info",
+    "birthday": "<strong>Birthday</strong>05-06-1983",
+    "phone": "<strong>Phone Number</strong>+34 673 608 831",
+    "email":"<strong>Email</strong>danicalvente@hotmail.com",
+    "location": "<strong>Location</strong>Granada, Spain",
+    "hobbies":"Interests",
+    "sports": "SPORTS",
+    "family": "FAMILY",
+    "nature": "NATURE",
+    "food": "FOOD",
+    "reading": "READING",
+    "music": "MUSIC",
+    "tv-series": "TV SERIES",
+    "movies": "MOVIES"
+  },
+  "curriculum": {
+    "education": "Education",
+    "first-course-name":"Full-Stack Web Development Graduate",
+    "first-course-school":"IRONHACK",
+    "first-course-location":"Remote",
+    "first-course-date":"01/2022 - 03/2022",
+    "second-course-name":"Upper-intermediate English Level Certificated",
+    "second-course-school":"WAES",
+    "second-course-location":"London - UK",
+    "second-course-date":"01/2013 - 06/2013",
+    "third-course-name":"Sports & Physical Activity",
+    "third-course-school":"University of León",
+    "third-course-location":"León - Spain",
+    "third-course-date":"09/2002 - 06/2008",
+
+    "experience":"Job Experience",
+    "first-job-rol":"Teacher Assistant Web Development",
+    "first-job-company":"IRONHACK",
+    "first-job-location":"Remote",
+    "first-job-date":"05/22 - Present",
+    "second-job-rol":"Maitre Beach Club - Restaurant",
+    "second-job-company":"Finca Cortesin 5* Great Luxury Hotel",
+    "second-job-location":"Marbella - Spain",
+    "second-job-date":"01/2018 - 12/18",
+    "third-job-rol":"Restaurant Manager",
+    "third-job-company":"Jose Pizarro Restaurants",
+    "third-job-location":"Londres - UK",
+    "third-job-date":"05/2015 - 10/2016"
   }
 }

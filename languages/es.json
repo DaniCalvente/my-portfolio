@@ -8,5 +8,52 @@
   },
   "home": {
     "rol": "Programador Web Full-Stack"
+  },
+  "about":{
+    "about-me": "Sobre mi",
+    "description": "<span>Hola, soy Dani Calvente! </span>Soy un desarrollador web Full Stack con pasión por el aprendizaje, atención a los detalles y una comunicación efectiva, para ofrecer resultados satisfactorios. Mi objetivo es encontrar un puesto de desarrollador web junior, que maximice mis oportunidades de crecimiento y desarrollo de habilidades a través del trabajo dentro de un gran equipo.",  
+    "personal-info": "Información Personal",
+    "birthday":"<strong>Cumpleaños</strong>05-06-1983",
+    "phone":"<strong>Teléfono</strong>673 608 831",
+    "email":"<strong>Email</strong>danicalvente@hotmail.com",
+    "location": "<strong>Ubicación</strong>Granada, España",
+    "hobbies":"Intereses",
+    "sports": "DEPORTE",
+    "family": "FAMILIA",
+    "nature": "NATURALEZA",
+    "food": "COMIDA",
+    "reading": "LECTURA",
+    "music": "MUSICA",
+    "tv-series": "SERIES",
+    "movies": "PELICULAS"
+  },
+  "curriculum": {
+    "education": "Educación",
+    "first-course-name":"Graduado Desarrollo Web Full-Stack",
+    "first-course-school":"IRONHACK",
+    "first-course-location":"Remoto",
+    "first-course-date":"01/2022 - 03/2022",
+    "second-course-name":"Upper-intermediate English Level Certificated",
+    "second-course-school":"WAES",
+    "second-course-location":"Londres - Reino Unido",
+    "second-course-date":"01/2013 - 06/2013",
+    "third-course-name":"Ciencias de la Actividad Física y el Deporte",
+    "third-course-school":"Universidad de León",
+    "third-course-location":"León - España",
+    "third-course-date":"09/2002 - 06/2008",
+
+    "experience":"Experiencia Laboral",
+    "first-job-rol":"Asistente de Profesor - Bootcamp Desarrollo Web",
+    "first-job-company":"IRONHACK",
+    "first-job-location":"Remoto",
+    "first-job-date":"05/22 - Actualidad",
+    "second-job-rol":"Maitre Club de Playa - Restaurante",
+    "second-job-company":"Hotel Finca Cortesin 5* Gran Lujo",
+    "second-job-location":"Marbella - España",
+    "second-job-date":"01/2018 - 12/18",
+    "third-job-rol":"Restaurant Manager",
+    "third-job-company":"Jose Pizarro Restaurants",
+    "third-job-location":"Londres - Reino Unido",
+    "third-job-date":"05/2015 - 10/2016"
   }
 }
