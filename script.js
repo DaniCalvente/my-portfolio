@@ -20,7 +20,16 @@ function select() {
 const flagsElement = document.getElementById("flags");
 
 flagsElement.addEventListener("click", (e) => {
-  changeLanguage(e.target.parentElement.dataset.language);
+  console.log(e.target.parentElement.dataset.language);
+  let selectedLanguage = e.target.parentElement.dataset.language;
+  changeLanguage(selectedLanguage);
+  if (selectedLanguage == "en") {
+    document.getElementById("en-button").style.display = "block";
+    document.getElementById("es-button").style.display = "none";
+  } else {
+    document.getElementById("es-button").style.display = "block";
+    document.getElementById("en-button").style.display = "none";
+  }
 });
 
 const textsToChange = document.querySelectorAll("[data-section]");

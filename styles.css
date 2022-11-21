@@ -234,6 +234,9 @@ html {
 .about button:hover .overlay {
   width: 100%;
 }
+.about #en-button {
+  display: none;
+}
 
 /* CURRICULUM SECTION */
 .curriculum {
